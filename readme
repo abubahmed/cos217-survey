@@ -12,7 +12,7 @@ in the "Policies" web page (also available on armlab in the file
 ~cos217/AuthorizedSourcesList ) to this section of the readme file,
 and edit it as appropriate.
 
-
+Google search engine, stack overflow, course videos
 
 ------------------------------------------------------------------------
 What unauthorized sources of information did you use to complete the
@@ -26,7 +26,7 @@ interaction, may additionally require the interaction being reported
 to the Committee on Discipline. Write "None" if you used no
 unauthorized sources of information.
 
-
+None
 
 ------------------------------------------------------------------------
 In fulfillment of the requirement from section 2.4.3 of the Academic
@@ -44,12 +44,12 @@ Regulations in Princeton's Rights, Rules, Responsibilities guide,
 and the COS 217 Generative AI policy, disclose and describe how you
 used AI in completing this assignment:
 
-
+I did not use AI to complete this assignment.
 
 ------------------------------------------------------------------------
 What is your assessment of the assignment? Was it helpful? Was it fun?
 
-
+The assignment was helpful in helping us understanding the basics of bash commands.
 
 ------------------------------------------------------------------------
 (optional) What information can you provide about your submission that
@@ -61,9 +61,10 @@ particular, what bugs are in your submission?
 ------------------------------------------------------------------------
 What bash command(s) did you use to generate the files in Step 3.2?
 
+k=0; for i in `seq -w 1 286`; do k=$((k+1)); echo $(printf "\\$(printf '%03o' $((97+((k-1)%26))))") > file$i.txt; done
 
 
 ------------------------------------------------------------------------
 What is your resulting MD5 checksum from Step 3.3 (NOT 3.2!)?
 
-MD5:
+MD5: bc63a379cba713dc902ed77964478d60
